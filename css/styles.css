@@ -665,11 +665,11 @@ fieldset {
 }
 
 .privacy-wrap {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   margin-right: 8px;
@@ -678,7 +678,7 @@ fieldset {
     border var(--main-transition), fill var(--main-transition);
 }
 
-.terms-check:checked + .privacy-wrap {
+.terms-check:checked + .terms-text > .privacy-wrap {
   background-color: var(--effect-second-color);
   fill: var(--effect-main-color);
   border: none;
