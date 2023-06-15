@@ -648,18 +648,15 @@ fieldset {
 }
 
 .terms-text {
-  width: 100%;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--second-border-color);
-  display: flex;
-  align-items: center;
+  display: block;
 }
 
 .privacy-link {
-  line-height: 1.33;
-  letter-spacing: 0.04em;
+  display: inline-block;
   color: var(--logo-color);
   margin-left: 4px;
 }
