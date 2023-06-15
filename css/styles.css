@@ -562,6 +562,14 @@ fieldset {
   margin-bottom: 8px;
 }
 
+.modal-group-fourth {
+  margin-bottom: 16px;
+}
+
+.modal-group-fifth {
+  margin-bottom: 24px;
+}
+
 .modal-title {
   width: 100%;
   font-weight: 500;
@@ -649,35 +657,35 @@ fieldset {
   align-items: center;
 }
 
-.terms-text a {
+.privacy-link {
   line-height: 1.33;
   letter-spacing: 0.04em;
   color: var(--logo-color);
   margin-left: 4px;
 }
 
-.terms-text span {
+.privacy-wrap {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   margin-right: 8px;
   fill: transparent;
   transition: background-color var(--main-transition),
-    border-color var(--main-transition), fill var(--main-transition);
+    border var(--main-transition), fill var(--main-transition);
 }
 
-.terms-check:checked + .terms-text span {
+.terms-check:checked + .privacy-wrap {
   background-color: var(--effect-second-color);
-  border-color: var(--effect-second-color);
   fill: var(--effect-main-color);
+  border: none;
 }
 
 .modal-submit-btn {
-  display: flex;
+  display: block;
   justify-content: center;
   font-weight: 500;
   font-size: 16px;
